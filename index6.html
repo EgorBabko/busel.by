@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/98db508811.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Busel - Informantion</title>
+</head>
+
+<body>
+    <header class="miniguides__headerbg">
+        <div class="header__gradient_top">
+            <div class="header__gradient_bottom">
+                <div class="container">
+                    <div class="header">
+                        <div class="header__nav">
+                            <a class="header__logo" href="index.html">
+                                <img src="img/logo.png" alt="logo">
+                            </a>
+                            <nav>
+                                <ul>
+                                    <li><a href="index3.html">To do</a></li>
+                                    <li><a href="index4.html">To see</a></li>
+                                    <li><a href="index2.html">To eat</a></li>
+                                    <li><a href="index5.html">Info</a></li>
+                                    <li><a class="header__active" href="index6.html">Mini-guides</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="header__translation">
+                            <a class="header__en_active" href="#">en</a>
+                            <a class="header__ru" href="#">ru</a>
+                        </div>
+                    </div>
+                    <div class="header__main">
+                        <div class="header__title">
+                            <p>Discover the country with</p>
+                            <h1>Mini-guides</h1>
+                        </div>
+                        <div class="header__social">
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-vk"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Mini-guides -->
+        <section>
+            <div class="container page__tours">
+                <div class="tours__title">
+                    <h2>Use our prepered <span>tours</span></h2>
+                    <p>This quarter of passions originally inspired us to purcareers in the food, beverage and hospitality industry</p>
+                </div>
+                <div class="tours__row">
+                    <div class="tours__item1">
+                        <div class="tours-box tours-box1">
+                            <div class="tours-box__views">
+                                <i class="fas fa-heart tours-box__icon"></i>
+                                <p class="tours-box__stats" id="tours-box1__likes" onclick="firstFunction()">32</p>
+                            </div>
+                            <script>
+                                var textArray = ['33', '32']
+                                var i = 0;
+
+                                function firstFunction() {
+                                    document.getElementById("tours-box1__likes").innerHTML =
+                                        textArray[i++ % textArray.length];
+                                }
+                            </script>
+                            <div class="tours-box__title">
+                                <h3>Gastronomic Tour</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tours__item2">
+                        <div class="tours-box tours-box2">
+                            <div class="tours-box__views">
+                                <i class="fas fa-heart tours-box__icon"></i>
+                                <p class="tours-box__stats" id="tours-box2__likes" onclick="secondFunctionn()">64</p>
+                            </div>
+                            <script>
+                                var textArrayy = ['65', '64']
+                                var i = 0;
+
+                                function secondFunctionn() {
+                                    document.getElementById("tours-box2__likes").innerHTML =
+                                        textArrayy[i++ % textArrayy.length];
+                                }
+                            </script>
+                            <div class="tours-box__title">
+                                <h3>Hitchhiking</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tours__item3">
+                        <div class="tours-box tours-box3">
+                            <div class="tours-box__views">
+                                <i class="fas fa-heart tours-box__icon"></i>
+                                <p class="tours-box__stats" id="tours-box3__likes" onclick="thirdFunctionn()">256</p>
+                            </div>
+                            <script>
+                                var textArrayyy = ['257', '256']
+                                var i = 0;
+
+                                function thirdFunctionn() {
+                                    document.getElementById("tours-box3__likes").innerHTML =
+                                        textArrayyy[i++ % textArrayyy.length];
+                                }
+                            </script>
+                            <div class="tours-box__title">
+                                <h3>Lindemann`s Tour</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tours__box">
+                    <div class="tours__col1">
+                        <h3>Gastronomic Tour</h3>
+                        <p class="tours__forwho">For those who want to try the unique cuisine of Belarus and get acquainted with Belarusian traditions
+                        </p>
+                        <p class="tours__duration">Duration: 3 - 5 hours</p>
+                        <div class="tours__adresses">
+                            <div class="tours__icons">
+                                <i class="fas fa-utensils tours__icon" aria-hidden="true"></i>
+                                <i class="fas fa-utensils tours__icon" aria-hidden="true"></i>
+                                <i class="fas fa-utensils tours__icon" aria-hidden="true"></i>
+                            </div>
+                            <div class="tours__restautants">
+                                <a href="#">Kamyanitsa</a>
+                                <a href="#">Belarusian karchma</a>
+                                <a href="#">Gray</a>
+                            </div>
+                        </div>
+                        <div class="tours__links">
+                            <a href="#">Show route</a>
+                            <a href="#">Open Google Maps</a>
+                        </div>
+                    </div>
+                    <div class="tours__col2">
+                        <img src="img/tours3.png" alt="photo">
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__about">
+                    <div>
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <div class="footer__contacts">
+                        <div>
+                            <p>Would you like a free consultation?</p>
+                            <p>Perhaps your existing.</p>
+                        </div>
+                        <p>Write us today <span>hello@myfreedom.by</span></p>
+                    </div>
+                    <div class="footer__social">
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-vk"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__lists">
+                    <div class="footer__col">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index2.html">Places to eat</a></li>
+                            <li><a href="index3.html">Places to do</a></li>
+                            <li><a href="index4.html">Places to see</a></li>
+                            <li><a href="index6.html">Mini-guides</a></li>
+                            <li><a href="index5.html">Info</a></li>
+                            <li><a href="#">Faq</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h2>Resourses</h2>
+                        <ul>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Our team</a></li>
+                            <li><a href="#">Term & Condition</a></li>
+                            <li><a href="#">Safety & Security</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="footer__copyright">Ъ_Ь team © Copyright 2020. All rights reserved </p>
+        </div>
+    </footer>
+</body>
+
+</html>
